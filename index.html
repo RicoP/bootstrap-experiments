@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap 101 Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="navbar-inner">
+						<div class="container">
+								<a class="brand" href="#">Project name</a>
+								<div class="nav-collapse collapse">
+										<ul class="nav">
+												<li class="active"><a href="#">Home</a></li>
+												<li><a href="#about">About</a></li>
+												<li><a href="#contact">Contact</a></li>
+												<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+												<ul class="dropdown-menu">
+														<li><a href="#">Action</a></li>
+														<li><a href="#">Another action</a></li>
+														<li><a href="#">Something else here</a></li>
+														<li class="divider"></li>
+														<li class="nav-header">Nav header</li>
+														<li><a href="#">Separated link</a></li>
+														<li><a href="#">One more separated link</a></li>
+												</ul>
+												</li>
+										</ul>
+										<form class="navbar-form pull-right">
+										<input class="span2" type="text" placeholder="Email">
+										<input class="span2" type="password" placeholder="Password">
+										<button type="submit" class="btn">Sign in</button>
+										</form>
+								</div><!--/.nav-collapse -->
+						</div>
+				</div>
+		</div>
+
+		<div class="navbar">
+			<div class="span3"> <img src="img/aperture_logo.png" height="30" width="120" /> </div> 
+			<div class="span3 offset6">  
+				<form class="form-inline">
+					<div class="row">
+						<input type="text" class="input-small" placeholder="Email" />
+						<input type="password" class="input-small" placeholder="Password" />
+						<button type="submit" class="btn">Sign in</button>
+					</div>
+						<label class="checkbox">
+							<input type="checkbox"> Remember me </input> 
+						</label>
+						<a href="#">Sign Up</a> 
+					<div class="row">
+					</div>
+				</form>
+			</div> 
+		</div> 		
+		<div class="row-fluid">
+			<div class="span12">  
+				<form class="form-search">
+					<input type="text" class="input-medium search-query">
+			    	<button type="submit" class="btn">Search</button>
+				</form>
+			</div>
+		</div> 
+		<div class="row-fluid">
+			<div class="span3"> NOTES </div>
+			<div class="span4"> LIST </div> 
+			<div class="span5"> VIEW </div> 
+		</div>
+
+
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/app.js"></script> 
+		<script> 
+			$(function() { 
+				$(".btn").click(function() {
+					$(this).alert("Hello"); 
+				}); 
+			}); 
+		</script> 
+	</body>
+</html>
